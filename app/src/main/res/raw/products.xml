@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss>
+   // Hyperpigmentation
+        <product>
+            <name>Topicals Faded Serum for Dark Spots and Discoloration</name>
+            <url>https://a.co/d/ib7p0Fv</url>
+            <rate>4.1</rate>
+            <location>Sephora</location>
+            <image>faded_serum</image>
+        </product>
+
+        <product>
+            <name>The Ordinary Alpha Arbutin 2% + HA Hyperpigmentation Serum</name>
+            <url>https://a.co/d/67kHpxm</url>
+            <rate>4.4</rate>
+            <location>Sephora</location>
+            <image>ordinary_darkspot_serum</image>
+        </product>
+
+    // Pores
+
+        <product>
+            <name>Paulas Choice 2% BHA Liquid Salicylic Acid Exfoliant</name>
+            <url>https://a.co/d/gSIcmQj</url>
+            <rate>4.5</rate>
+            <location>Sephora</location>
+            <image>paulas_pores</image>
+        </product>
+
+        <product>
+            <name>innisfree Volcanic AHA Pore Clearing Clay Mask</name>
+            <url>https://a.co/d/2t6DwO3</url>
+            <rate>4.6</rate>
+            <location>Sephora</location>
+            <image>innis_pore</image>
+        </product>
+
+
+    // Acne
+        <product>
+            <name>La Roche-Posay Effaclar Adapalene Gel Acne Treatment</name>
+            <url>https://a.co/d/hL5kqk1</url>
+            <rate>4.5</rate>
+            <location>Target</location>
+            <image>laroche_acne</image>
+        </product>
+
+        <product>
+            <name>The Ordinary Niacinamide 10% + Zinc 1%</name>
+            <url>https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html</url>
+            <rate>4.5</rate>
+            <location>Sephora</location>
+            <image>ordinary_acne_serum</image>
+        </product>
+
+   
+   // Redness
+        <product>
+            <name>The Ordinary Azelaic Acid 10% Suspension Brightening Cream</name>
+            <url>https://a.co/d/2CbVVgu</url>
+            <rate>4.5</rate>
+            <location>Sephora</location>
+            <image>ordinary_redness_serum</image>
+        </product>
+
+        <product>
+            <name>Paula's Choice BOOST 10% Azelaic Acid Booster Cream Gel</name>
+            <url>https://a.co/d/fepBpBU</url>
+            <rate>4.3</rate>
+            <location>Sephora</location>
+            <image>paulas_redness_cream</image>
+        </product>
+    
+
+
+   // Dryness
+        <product>
+            <name>The Ordinary Hyaluronic Acid 2% + B5</name>
+            <url>https://theordinary.com/en-us/hyaluronic-acid-2-b5-serum-100425.html</url>
+            <rate>4.6</rate>
+            <location>Sephora</location>
+            <image>ordinary_dryness_serum</image>
+        </product>
+
+        <product>
+            <name>Aquaphor Healing Ointment</name>
+            <url>https://a.co/d/72OmmnYrl</url>
+            <rate>4.8</rate>
+            <location>Target</location>
+            <image>aquaphor_dryness</image>
+        </product>
+
+
+   // Anti-aging
+        <product>
+            <name>No7 Protect and Perfect Intense Advanced Serum</name>
+            <url>https://a.co/d/cKmdNXp</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>no7_serum</image>
+        </product>
+
+        <product>
+            <name>CeraVe Skin Renewing Night Cream Face Moisturizer</name>
+            <url>https://a.co/d/6yKaFCN</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>cerave_night_cream</image>
+        </product>
+
+
+</rss>

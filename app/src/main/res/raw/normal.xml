@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss>
+
+    <cleanser>
+
+        <product>
+            <name>Cetaphil Gentle Skin Cleanser</name>
+            <url>https://www.cetaphil.com/us/cleansers/gentle-skin-cleanser/302990110227.html</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>cetaphil_cleanser</image>
+        </product>
+
+        <product>
+            <name>Neutrogena Hydro Boost Water Gel Cleanser</name>
+            <url>https://www.neutrogena.com/products/skincare/neutrogena-hydro-boost-hydrating-gel-cleanser-with-hyaluronic-acid-fragrance-free/6806422.html</url>
+            <rate>4.7</rate>
+            <location>Target</location>
+            <image>neut_hydro_cleans</image>
+        </product>
+
+    </cleanser>
+
+
+
+
+    <moisturizer>
+
+
+        <product>
+            <name>Summer Fridays Cloud Dew Gel Cream Moisturizer</name>
+            <url>https://www.sephora.com/product/summer-fridays-cloud-dew-oil-free-gel-cream-P466153?icid2=moisturizerbyskintype_normal_us_skugrid_ufe:p466153:product</url>
+            <rate>4.6</rate>
+            <location>Sephora</location>
+            <image>summerfri_moist</image>
+        </product>
+
+
+        <product>
+            <name>Paula's Choice C5 Super Boost Vitamin C Moisturizer</name>
+            <url>https://www.sephora.com/product/c5-super-boost-vitamin-c-moisturizer-P501282?icid2=moisturizerbyskintype_normal_us_skugrid_ufe:p501282:product</url>
+            <rate>4.4</rate>
+            <location>Sephora</location>
+            <image>paulasc5_moist</image>
+        </product>
+
+
+
+    </moisturizer>
+
+
+
+    <sunscreen>
+        <product>
+            <name>MD SolarSciences Mineral Crème SPF 50</name>
+            <url>https://a.co/d/8UHikSO</url>
+            <rate>4.4</rate>
+            <location>Target</location>
+            <image>md_solar_sun</image>
+        </product>
+
+        <product>
+            <name>La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 60</name>
+            <url>https://www.laroche-posay.us/our-products/sun/body-sunscreen/anthelios-melt-in-milk-sunscreen-spf-60-antheliosmeltinmilk.html</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>laroche_sun60</image>
+        </product>
+
+    </sunscreen>
+
+</rss>

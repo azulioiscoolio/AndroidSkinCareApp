@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss>
+
+
+    <cleanser>
+        <product>
+            <name>Paula's Choice RESIST Perfectly Balanced Foaming Cleanser</name>
+            <url>https://a.co/d/bqT2PHU</url>
+            <rate>4.5</rate>
+            <location>Sephora</location>
+            <image>paula_cleanser</image>
+        </product>
+
+        <product>
+            <name>Farmacy Natural Makeup Remover - Green Clean Makeup Meltaway Cleansing Balm</name>
+            <url>https://a.co/d/hnbT1v4</url>
+            <rate>4.7</rate>
+            <location>Sehpora</location>
+            <image>farmacy_cleanser</image>
+        </product>
+
+    </cleanser>
+
+
+    
+    <moisturizer>
+        <product>
+            <name>Neutrogena Hydro Boost Water Gel</name>
+            <url>https://a.co/d/j3A9m6Q</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>neutro_moist</image>
+        </product>
+
+        <product>
+            <name>Paula’s Choice Skin Balancing Invisible Finish Moisture Gel</name>
+            <url>https://a.co/d/4tq6qIA</url>
+            <rate>4.5</rate>
+            <location>Sephora</location>
+            <image>paula_mois</image>
+        </product>
+
+    </moisturizer>
+
+
+
+    <sunscreen>
+        <product>
+            <name>CeraVe Hydrating Sheer Sunscreen SPF 30 for Face and Body</name>
+            <url>https://a.co/d/hLsyhUS</url>
+            <rate>4.5</rate>
+            <location>Target</location>
+            <image>cerave_hydrating_sun</image>
+        </product>
+
+
+        <product>
+            <name>Supergoop! Mineral Mattescreen SPF 40</name>
+            <url>https://a.co/d/6Qo74b1</url>
+            <rate>4.4</rate>
+            <location>Sephora</location>
+            <image>supergoop_sun</image>
+        </product>
+
+    </sunscreen>
+
+</rss>

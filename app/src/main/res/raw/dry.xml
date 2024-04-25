@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss>
+
+    // Cleanser
+
+        <product>
+            <name>Vanicream Gentle Facial Cleanser</name>
+            <url>https://a.co/d/aqwZgPI</url>
+            <rate>4.7</rate>
+            <location>Target</location>
+            <image>vani_cream</image>
+        </product>
+
+        <product>
+            <name>Glow Recipe Avocado Ceramide Moisture Barrier Face Cleanser</name>
+            <url>https://a.co/d/16zG73o</url>
+            <rate>4.6</rate>
+            <location>Sephora</location>
+            <image>glow_recipe_cleanser</image>
+        </product>
+
+
+    //Moisturizer
+
+        <product>
+            <name>CeraVe Moisturizing Cream</name>
+            <url>https://a.co/d/4Q8u7I1</url>
+            <rate>4.8</rate>
+            <location>Target</location>
+            <image>cerave_moisturizing</image>
+        </product>
+
+        <product>
+            <name>La Roche-Posay Toleriane Double Repair Face Moisturizer</name>
+            <url>https://a.co/d/aFKy7EO</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>laroche_moist</image>
+        </product>
+
+
+
+
+
+    //Sunscreen
+        <product>
+            <name>CeraVe Face Moisturizer with Sunscreen</name>
+            <url>https://a.co/d/hNqdQwi</url>
+            <rate>4.5</rate>
+            <location>Target</location>
+            <image>cerave_moist_spf</image>
+        </product>
+
+        <product>
+            <name>Paula's Choice RESIST Skin Restoring Moisturizer SPF 50</name>
+            <url>https://a.co/d/9baP71d</url>
+            <rate>4.6</rate>
+            <location>Sephora</location>
+            <image>paula_sun</image>
+        </product>
+
+
+
+
+</rss>

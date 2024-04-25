@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkinType"
+    android:background="@color/light_pink">
+
+    <TextView
+        android:id="@+id/skinConcern1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/lobster"
+        android:gravity="center_horizontal"
+        android:text="What is your top skin concern?"
+        android:textSize="35dp" />
+
+    <RadioGroup
+        android:id="@+id/radioButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/skinConcern1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/darkSpots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Dark Spots"
+            android:onClick="progressSelect"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:width="190dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arvo"
+            />
+
+        <RadioButton
+            android:id="@+id/redness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/darkSpots"
+            android:checked="false"
+            android:onClick="progressSelect"
+            android:text="Redness"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:width="190dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arvo"
+            />
+
+        <RadioButton
+            android:id="@+id/pores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/redness"
+            android:layout_marginBottom="10dp"
+            android:width="190dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:gravity="center"
+            android:onClick="progressSelect"
+            android:text="Pores"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/dryness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="progressSelect"
+            android:layout_below="@+id/redness"
+            android:checked="false"
+            android:text="Dryness"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:width="190dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arvo"
+            />
+
+        <RadioButton
+            android:id="@+id/acne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dryness"
+            android:onClick="progressSelect"
+            android:checked="false"
+            android:text="Acne"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:width="190dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arvo"
+            />
+
+        <RadioButton
+            android:id="@+id/aging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acne"
+            android:onClick="progressSelect"
+            android:checked="false"
+            android:text="Anti-aging wrinkles"
+            android:gravity="center_horizontal"
+            android:singleLine="false"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:width="190dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arvo"
+            />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioButtons"
+        android:id="@+id/navButtons"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/next"
+            android:text="Prev"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:id="@+id/prev"
+            android:onClick="goToSkin"
+            android:background="@drawable/next_button"
+            android:textColor="@color/dark_gray"
+            android:fontFamily="@font/arvo"
+
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:id="@+id/next"
+            android:onClick="goToSecondQ"
+            android:background="@drawable/next_button"
+            android:textColor="@color/dark_gray"
+            android:fontFamily="@font/arvo"
+
+            ></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+    <include layout="@layout/progress_bar"
+        android:layout_below="@+id/navButtons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

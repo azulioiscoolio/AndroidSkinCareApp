@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkinType"
+    android:background="@color/light_pink">
+
+    <TextView
+        android:id="@+id/skinTypeQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/lobster"
+        android:gravity="center_horizontal"
+        android:text="What is your skin type?"
+        android:textSize="35dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radioButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skinTypeQuestion"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true">
+
+
+        <RadioButton
+            android:id="@+id/dry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="190dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:onClick="progressSelect"
+            android:padding="10dp"
+            android:text="Dry"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arvo"/>
+
+        <RadioButton
+            android:id="@+id/oily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="190dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:onClick="progressSelect"
+            android:padding="10dp"
+            android:text="Oily"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arvo"/>
+
+
+        <RadioButton
+            android:id="@+id/combination"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:onClick="progressSelect"
+            android:padding="10dp"
+            android:text="Combination"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arvo"/>
+
+        <RadioButton
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="190dp"
+            android:background="@drawable/button_background"
+            android:button="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:onClick="progressSelect"
+            android:padding="10dp"
+            android:text="Normal"
+            android:textSize="25dp"
+            android:fontFamily="@font/arvo"/>
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioButtons"
+        android:id="@+id/navButtons"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/next"
+            android:text="Prev"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:id="@+id/prev"
+            android:onClick="goToMain"
+            android:background="@drawable/next_button"
+            android:textColor="@color/dark_gray"
+            android:fontFamily="@font/arvo"
+
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:id="@+id/next"
+            android:onClick="goToNext"
+            android:background="@drawable/next_button"
+            android:textColor="@color/dark_gray"
+            android:fontFamily="@font/arvo"
+
+            ></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+    <include layout="@layout/progress_bar"
+        android:layout_below="@+id/navButtons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+</RelativeLayout>

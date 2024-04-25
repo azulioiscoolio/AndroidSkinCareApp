@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity"
+    android:background="@color/light_pink">
+
+    <TextView
+        android:id="@+id/resultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/lobster"
+        android:text= "Locations"
+        android:textSize="50dp" />
+
+    <FrameLayout
+        android:id="@+id/maps_linear"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_below="@+id/resultTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical"
+        >
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MapsActivity"
+            android:id = "@+id/map_fragment"
+            android:name ="com.google.android.gms.maps.SupportMapFragment">
+        </fragment>
+
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_below="@+id/maps_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="  Go Back to Your Results  "
+        android:textColor="@color/white"
+        android:onClick="goBack"
+        android:textAllCaps="false"
+        android:background="@drawable/other_next_button"
+        android:fontFamily="@font/arvo_bold"
+        />
+
+</RelativeLayout>

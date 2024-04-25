@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_pink">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/arvo_bold"
+        android:gravity="center_horizontal"
+        android:text="You have already taken the quiz! \n\nWould you like to reset your results and take it again or would you like to view your previous results?"
+        android:textSize="20dp" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/takeQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/next_button"
+            android:onClick="goToQuiz"
+            android:text="   Take Quiz   "
+            android:textSize="20dp"
+            android:fontFamily="@font/arvo"
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/next_button"
+            android:textAllCaps="false"
+            android:onClick="goToResults"
+            android:text="   View Results   "
+            android:textSize="20dp"
+            android:fontFamily="@font/arvo"/>
+    </TableRow>
+
+
+
+
+</RelativeLayout>

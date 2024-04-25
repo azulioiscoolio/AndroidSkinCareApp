@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss>
+
+    <cleanser>
+
+        <product>
+            <name>CeraVe SA Cleanser</name>
+            <url>https://a.co/d/8Si8qZE</url>
+            <rate>4.7</rate>
+            <location>Target</location>
+            <image>cerave_sacleanser</image>
+        </product>
+
+        <product>
+            <name>La Roche-Posay Toleriane Hydrating Gentle Face Cleanser</name>
+            <url>https://a.co/d/i67A8zd</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>laroche_cleanser</image>
+        </product>
+
+    </cleanser>
+
+
+
+    
+    <moisturizer>
+
+        <product>
+            <name>Drunk Elephant Lala Retro Whipped Cream</name>
+            <url>https://a.co/d/8QvIOuJ</url>
+            <rate>4.2</rate>
+            <location>Sephora</location>
+            <image>drunkel_moist</image>
+        </product>
+
+        <product>
+            <name>Cetaphil Daily Hydrating Lotion for Face, With Hyaluronic Acid</name>
+            <url>https://a.co/d/d9jCdNU</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>cetaphil_moist</image>
+        </product>
+
+
+    </moisturizer>
+
+
+
+    <sunscreen>
+        <product>
+            <name>La Roche Posay Toleriane Double Repair Face Moisturizer UV SPF 30</name>
+            <url>https://a.co/d/5KGkcBH</url>
+            <rate>4.6</rate>
+            <location>Target</location>
+            <image>laroche_sun</image>
+        </product>
+
+        <product>
+            <name>Supergoop! Mineral Mattescreen SPF 40</name>
+            <url>https://a.co/d/6Qo74b1</url>
+            <rate>4.4</rate>
+            <location>Sephora</location>
+            <image>supergoop_sun</image>
+        </product>
+
+    </sunscreen>
+
+</rss>

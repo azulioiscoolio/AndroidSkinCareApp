@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkinType"
+    android:background="@color/light_pink">
+
+
+    <TextView
+        android:id="@+id/resultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lobster"
+        android:text="Results"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:id="@+id/cardBack"
+        android:layout_width="match_parent"
+        android:layout_height="615dp"
+        android:layout_below="@+id/resultTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/product_name_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo_bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="-25dp"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="[Insert Product Type]"
+            />
+
+        <ImageView
+            android:id="@+id/product_img_back"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            />
+        <RatingBar
+            android:id="@+id/rating_ind_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-45dp"
+            android:numStars="5"
+            android:scaleX="0.65"
+            android:scaleY="0.65"
+            android:isIndicator="true"
+            style="@style/CustomRatingBar"
+            />
+        <TextView
+            android:id="@+id/num_reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-10dp"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:text="0 Terp Reviews"
+            android:fontFamily="@font/arvo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="280dp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#e0b1f2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/reviewList"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Be the first to review!"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/arvo_bold"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-60dp">
+
+            <Button
+                android:id="@+id/go_product_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="-10dp"
+
+                android:onClick="goToProduct"
+                android:scaleX="0.80"
+                android:scaleY="0.80"
+                android:text="Go to product"
+                android:textSize="15dp"
+                android:fontFamily="@font/arvo_bold"/>
+
+            <Button
+                android:id="@+id/leave_review_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:scaleX="0.80"
+                android:scaleY="0.80"
+                android:text="Review here"
+                android:onClick="goToReview"
+                android:fontFamily="@font/arvo_bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cardFront"
+        android:layout_width="match_parent"
+        android:layout_height="615dp"
+        android:layout_below="@+id/resultTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/product_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo_bold"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="   [Insert Product Type]   " />
+
+        <ImageView
+            android:id="@+id/product1_image"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/product1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:text="[Insert Name of First Cleanser]"
+            android:fontFamily="@font/arvo"/>
+
+
+
+        <Button
+            android:id="@+id/product1_learn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/purple"
+            android:layout_gravity="center"
+            android:text="Learn more here!"
+            android:fontFamily="@font/arvo_bold"
+            />
+
+        <ImageView
+            android:id="@+id/product2_image"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/product2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="[Insert Name of First Cleanser]"
+            android:fontFamily="@font/arvo"
+           />
+
+
+
+        <Button
+            android:id="@+id/product2_learn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/purple"
+            android:text="Learn more here!"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo_bold"
+             />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/flip_card_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:scaleX="0.55"
+        android:scaleY="0.55"
+        android:layout_alignBottom="@+id/cardBack"
+        android:layout_alignLeft="@+id/cardBack"
+        android:src="@drawable/curved_back"
+        android:visibility="gone"
+        />
+
+    <ImageButton
+        android:id="@+id/rightButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24dp"
+        android:onClick="rightClicked"
+        android:background="@drawable/right_arrow"
+        android:visibility="visible">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="24dp"
+        android:onClick="leftClicked"
+        android:background="@drawable/left_arrow"
+        android:visibility="visible"
+       >
+    </ImageButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardFront"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/other_next_button"
+        android:gravity="center"
+        android:onClick="maps"
+        android:text="   Click Here for Stores That  \n Sell These Products!"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/arvo_bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "269608470660",
+    "project_id": "skincareapp-ef535",
+    "storage_bucket": "skincareapp-ef535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269608470660:android:00b543c2da0e2566249ad1",
+        "android_client_info": {
+          "package_name": "com.example.groupproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV0vRT_MbEQqzh6pJ08VI6oIHiTTc66gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
